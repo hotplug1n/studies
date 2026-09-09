@@ -99,14 +99,6 @@
 - ✅ Beach Bar
 - ✅ Complimentary
 
-## Outras rooms visíveis
-
-- ✅ Room 404
-- ✅ The Brochure
-- ✅ Packed Light
-- ✅ Beach Bar
-- ✅ Complimentary
-
 ## Integridade da documentação
 
 Este arquivo registra **somente a evidência de conclusão da room**, não substitui anotações pessoais. A presença de uma room aqui não significa que cada conceito foi dominado. As notas em `tryhackme/<room>/README.md` devem diferenciar o que foi comprovadamente estudado do conteúdo de referência pesquisado.
