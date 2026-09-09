@@ -49,6 +49,8 @@ O perfil mostrado nas capturas informa **78 completed rooms**; 76 puderam ser id
 4. Explicar o porquê, não apenas o procedimento.
 5. Relacionar ataque, impacto, detecção e mitigação quando aplicável.
 
+Projetos próprios ficam em repositórios separados para manter este repositório focado em **estudo e documentação**.
+
 ## 📚 Referências-base
 
 - [TryHackMe](https://tryhackme.com/)
