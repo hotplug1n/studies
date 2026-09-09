@@ -26,11 +26,16 @@ Repositório pessoal para documentar minha evolução em **cibersegurança**, co
 
 ## 🎯 Como esta base é organizada
 
-- **Estudado / evidenciado:** conteúdo que tenho registro de ter estudado ou praticado.
-- **Conteúdo pesquisado:** material revisado para estruturar a base, sem afirmar conclusão pessoal.
-- **Em andamento:** assunto ou room que comecei, mas ainda não considero concluído.
+- **✅ Concluído:** há evidência de conclusão, especialmente nas rooms do TryHackMe identificadas nas capturas do perfil.
+- **🟡 Estudado / evidenciado:** conteúdo que tenho registro de ter estudado ou praticado.
+- **🔎 Conteúdo pesquisado:** material revisado para estruturar a base, sem afirmar conclusão pessoal.
+- **🟠 Em andamento:** assunto ou room que comecei, mas ainda não considero concluído.
 
-Nenhuma room será marcada como concluída sem evidência.
+### TryHackMe
+
+O perfil mostrado pelo usuário registra **78 completed rooms**. As capturas fornecidas nesta conversa permitem identificar **76 rooms individualmente**. As duas restantes ficam sem identificação até existir evidência adicional.
+
+➡️ [Ver as 76 rooms identificadas](./tryhackme/COMPLETED-ROOMS.md)
 
 ## 🧪 Metodologia
 
