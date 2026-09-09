@@ -8,34 +8,38 @@ Repositório pessoal para documentar minha evolução em **cibersegurança**, co
 
 | Área | Conteúdo |
 |---|---|
-| 🌐 [Networking](./networking/) | TCP/IP, OSI, DNS, DHCP, ARP, roteamento |
-| 🐧 [Linux](./linux/) | shell, filesystem, processos, permissões |
+| 🌐 [Networking](./networking/) | TCP/IP, OSI, DNS, DHCP, ARP e roteamento |
+| 🐧 [Linux](./linux/) | shell, filesystem, processos e permissões |
 | 🔎 [Nmap Recon](./nmap-recon/) | descoberta, portas, serviços e enumeração |
-| 🌐 [Web Security](./web-security/) | HTTP, autenticação, injeção, OWASP |
-| 🧪 [Burp Suite](./burp-suite/) | Proxy, Repeater, Intruder, escopo e análise |
+| 🌐 [Web Security](./web-security/) | HTTP, autenticação, injeção e OWASP |
+| 🧪 [Burp Suite](./burp-suite/) | Proxy, Repeater, Intruder e análise |
 | 🦈 [Wireshark](./wireshark/) | PCAP, filtros e análise de tráfego |
 | 🔑 [Cryptography](./cryptography/) | hashes, criptografia simétrica e assimétrica |
 | 💥 [Exploitation](./exploitation/) | exploração em laboratórios e pós-exploração |
 | 🪟 [Windows Security](./windows-security/) | Windows, PowerShell, eventos e AD |
-| 📡 [Network Attacks](./network-attacks/) | ataques e defesas de camada de rede |
+| 📡 [Network Attacks](./network-attacks/) | ataques e defesa de camada de rede |
 | 🔵 [Blue Team](./blue-team/) | monitoramento, detecção e resposta |
 | 📊 [Splunk](./splunk/) | SIEM, ingestão, pesquisa e investigação |
 | 🔍 [OSINT & Privacy](./osint-privacy/) | coleta de fontes abertas e privacidade |
 | 🌿 [Git Security](./git-security/) | histórico, segredos e segurança de repositórios |
-| 🎯 [TryHackMe](./tryhackme/) | trilhas, rooms e laboratórios documentados |
+| 🎯 [TryHackMe](./tryhackme/) | catálogo e notas individuais das rooms |
 
-## 🎯 Como esta base é organizada
+## 📚 TryHackMe
 
-- **✅ Concluído:** há evidência de conclusão, especialmente nas rooms do TryHackMe identificadas nas capturas do perfil.
-- **🟡 Estudado / evidenciado:** conteúdo que tenho registro de ter estudado ou praticado.
-- **🔎 Conteúdo pesquisado:** material revisado para estruturar a base, sem afirmar conclusão pessoal.
-- **🟠 Em andamento:** assunto ou room que comecei, mas ainda não considero concluído.
+As rooms ficam em um único lugar: [`tryhackme/`](./tryhackme/).
 
-### TryHackMe
+- [`COMPLETED-ROOMS.md`](./tryhackme/COMPLETED-ROOMS.md) — lista das 76 rooms identificadas nas capturas do perfil.
+- [`rooms/`](./tryhackme/rooms/) — documentação individual e padronizada.
+- [`research/`](./tryhackme/research/) — pesquisas que não representam conclusão pessoal.
 
-O perfil mostrado pelo usuário registra **78 completed rooms**. As capturas fornecidas nesta conversa permitem identificar **76 rooms individualmente**. As duas restantes ficam sem identificação até existir evidência adicional.
+O perfil mostrado nas capturas informa **78 completed rooms**; 76 puderam ser identificadas nominalmente.
 
-➡️ [Ver as 76 rooms identificadas](./tryhackme/COMPLETED-ROOMS.md)
+## 🎯 Status da documentação
+
+- **✅ Concluído:** há evidência de conclusão da room no perfil.
+- **🟡 Estudado / evidenciado:** há registro de estudo/prática no processo de aprendizagem.
+- **🟠 Em andamento:** assunto iniciado, mas ainda em desenvolvimento.
+- **🔎 Conteúdo pesquisado:** material usado como referência sem alegação de conclusão.
 
 ## 🧪 Metodologia
 
@@ -45,18 +49,14 @@ O perfil mostrado pelo usuário registra **78 completed rooms**. As capturas for
 4. Explicar o porquê, não apenas o procedimento.
 5. Relacionar ataque, impacto, detecção e mitigação quando aplicável.
 
-## 🎓 Trilhas prioritárias
-
-A documentação acompanha principalmente as trilhas atuais do TryHackMe **Pre Security**, **Cyber Security 101**, **SOC Level 1**, **Jr Penetration Tester** e **Web Application Pentesting**, mantendo material legado identificado como legado quando necessário.
-
 ## 📚 Referências-base
 
 - [TryHackMe](https://tryhackme.com/)
 - [OWASP](https://owasp.org/)
 - [NIST](https://www.nist.gov/cybersecurity)
 - [MITRE ATT&CK](https://attack.mitre.org/)
-- [Wireshark Documentation](https://www.wireshark.org/docs/)
-- [Nmap Documentation](https://nmap.org/docs.html)
+- [Wireshark](https://www.wireshark.org/docs/)
+- [Nmap](https://nmap.org/docs.html)
 
 ---
 
