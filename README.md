@@ -23,19 +23,6 @@ Repositório pessoal para documentar minha evolução em **cibersegurança**, co
 | 🔍 [OSINT & Privacy](./osint-privacy/) | fontes abertas e privacidade |
 | 🌿 [Git Security](./git-security/) | histórico, segredos e segurança de repositórios |
 | 🎯 [TryHackMe](./tryhackme/) | catálogo e documentação das rooms |
-| 🧪 [Projects](./projects/) | projetos próprios para transformar estudo em evidência prática |
-
-## 🧪 Projetos práticos
-
-### [Mini SOC Lab](./projects/mini-soc-lab/)
-
-Laboratório defensivo em **Python** para analisar eventos de autenticação e gerar alertas de:
-
-- brute force;
-- login bem-sucedido após falhas;
-- direcionamento a contas administrativas.
-
-**Stack:** Python · Linux · Blue Team · Log Analysis
 
 ## 📚 TryHackMe
 
@@ -61,7 +48,6 @@ O perfil mostrado nas capturas informa **78 completed rooms**; 76 puderam ser id
 3. Registrar comandos e observações.
 4. Explicar o porquê, não apenas o procedimento.
 5. Relacionar ataque, impacto, detecção e mitigação quando aplicável.
-6. Transformar os aprendizados mais importantes em projetos próprios.
 
 ## 📚 Referências-base
 
