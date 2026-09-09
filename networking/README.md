@@ -1,29 +1,17 @@
 # 🌐 Networking
 
-## Objetivo
-Construir base sólida para entender como hosts, serviços e redes se comunicam e como investigar esse tráfego em segurança.
+Base para entender comunicação entre hosts e serviços.
 
-## Fundamentos
-- OSI e TCP/IP
-- IPv4, máscaras, sub-redes e roteamento
-- TCP vs UDP
-- portas e sockets
-- DNS, DHCP, ARP e ICMP
-- NAT e conceitos de segmentação
+## Tópicos
+OSI/TCP-IP, IPv4, sub-redes, TCP/UDP, portas, DNS, DHCP, ARP, ICMP, NAT, roteamento e segmentação.
 
 ## Prática
-Usar `ip`, `ss`, `ping`, `traceroute`/`tracepath`, `dig`, `nslookup` e `tcpdump` em ambientes próprios ou de laboratório.
+`ip`, `ss`, `ping`, `tracepath`, `dig`, `nslookup`, `tcpdump` e análise de PCAP em laboratório.
 
-## Segurança
-Relacionar cada protocolo ao seu risco: spoofing, exposição de serviços, falhas de segmentação, resolução de nomes e visibilidade de tráfego.
+## Navegação
+As rooms do TryHackMe ficam centralizadas em [`tryhackme/COMPLETED-ROOMS.md`](../tryhackme/COMPLETED-ROOMS.md).
 
-## TryHackMe relacionado
-- Networking Concepts
-- Networking Essentials
-- Networking Core Protocols
-- Networking Secure Protocols
-- Nmap: The Basics
-- Wireshark: The Basics
+## Referências
+[TryHackMe Networking](https://tryhackme.com/module/networking) · [Wireshark Docs](https://www.wireshark.org/docs/) · [Cloudflare Learning](https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/)
 
-## Status
-**Estudado / em andamento.** Conceitos de redes fazem parte da base atual de estudos; conclusão individual das rooms deve ser registrada separadamente.
+**Status:** 🟡 estudado / em andamento

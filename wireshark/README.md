@@ -1,32 +1,17 @@
 # 🦈 Wireshark
 
-## Objetivo
-Aprender análise de tráfego e leitura de PCAPs para investigação, troubleshooting e detecção.
+Análise de tráfego e PCAP para troubleshooting, investigação e detecção.
 
-## Conceitos
-- captura vs análise offline
-- Ethernet, IP, TCP/UDP, DNS, HTTP/HTTP2
-- filtros de captura e display filters
-- streams e reassembly
-- flags TCP, portas, hosts e protocolos
-- identificação de indicadores suspeitos
+## Tópicos
+Ethernet, IP, TCP/UDP, DNS, HTTP/HTTP2, streams, filtros, reassembly e indicadores.
 
-## Filtros úteis
-```text
-ip.addr == 10.10.10.10
-tcp.port == 80
-http
-http.request
-dns
-tcp.stream eq 0
-```
+## Filtros-base
+`ip.addr == X.X.X.X`, `tcp.port == 80`, `dns`, `http.request`, `tcp.stream eq 0`.
 
-## Metodologia
-Começar por visão geral → identificar conversas → filtrar por protocolo/host → seguir streams → correlacionar timestamps e evidências.
-
-## Status
-**Estudado / prática registrada.** Já houve estudo de Wireshark/PCAP e análise de pacotes no processo de aprendizagem.
+## Método
+Visão geral → conversa → filtro → stream → timestamps → correlação.
 
 ## Referências
-- https://www.wireshark.org/docs/
-- https://wiki.wireshark.org/DisplayFilters
+[Wireshark Docs](https://www.wireshark.org/docs/) · [Display Filters](https://wiki.wireshark.org/DisplayFilters)
+
+**Status:** 🟡 estudado / prática registrada

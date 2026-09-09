@@ -1,16 +1,14 @@
-# 🛰️ SOC
+# 🛡️ SOC
 
-## Objetivo
-Organizar o estudo de operações de segurança: monitoramento, triagem, investigação, escalonamento e resposta.
+Security Operations Center: pessoas, processos e tecnologia trabalhando para detectar e responder a incidentes.
 
-## Rotina de um analista L1
-Receber alerta → validar contexto → identificar entidade/tempo → buscar evidências → classificar → documentar → escalar quando necessário.
+## Tópicos
+L1/L2/L3, triagem, escalonamento, SIEM, EDR, playbooks, KPIs e comunicação.
 
-## Fontes
-Endpoint, firewall, proxy, DNS, autenticação, aplicação, IDS/IPS, EDR e SIEM.
+## Investigação
+Registrar o que, quando, onde, quem, por quê, evidências e decisão.
 
-## Indicadores
-IP, domínio, URL, hash, usuário, hostname, processo, porta, timestamp e artefatos de autenticação.
+## Referências
+[NIST Incident Response](https://csrc.nist.gov/pubs/sp/800/61/r2/final) · [MITRE ATT&CK](https://attack.mitre.org/)
 
-## Status
-**Estudado / em andamento.**
+**Status:** 🟡 estudado / em andamento

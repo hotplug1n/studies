@@ -1,26 +1,14 @@
 # 🪟 Windows Security
 
-## Objetivo
-Entender componentes do Windows relevantes para administração, hardening, investigação e resposta a incidentes.
+Windows para administração, hardening, investigação e resposta.
 
 ## Tópicos
-- usuários, grupos e permissões
-- processos e serviços
-- PowerShell e CMD
-- Registry
-- UAC, Defender e BitLocker
-- Windows Event Logs
-- autenticação e credenciais
-- Active Directory
+Usuários/grupos, processos, serviços, CMD, PowerShell, Registry, UAC, Defender, logs, credenciais e AD.
 
 ## Investigação
-Eventos, processos, tarefas agendadas, serviços, conexões e persistência devem ser correlacionados por tempo e contexto.
+Correlacionar processos, serviços, conexões e eventos por tempo e contexto.
 
-## TryHackMe relacionado
-- Windows Fundamentals 1/2/3
-- Active Directory Basics
-- Windows Command Line
-- Windows PowerShell
+## Referências
+[Microsoft Security](https://learn.microsoft.com/windows/security/) · [Windows Server Identity](https://learn.microsoft.com/windows-server/identity/)
 
-## Status
-**Em andamento.**
+**Status:** 🟡 em andamento

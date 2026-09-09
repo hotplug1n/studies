@@ -1,27 +1,17 @@
 # 🌐 Web Security
 
-## Objetivo
-Entender aplicações web do ponto de vista de desenvolvimento e segurança: como uma requisição nasce, como o servidor decide o que fazer e onde controles podem falhar.
+Fundamentos para entender, testar e defender aplicações web.
 
 ## Tópicos
-- URL, HTTP/HTTPS, métodos e status codes
-- headers, cookies e sessões
-- autenticação e autorização
-- validação de entrada
-- XSS, SQL injection, SSRF e file inclusion
-- CSRF, IDOR/BOLA e falhas de lógica
-- logging, rate limiting e controles server-side
+HTTP/HTTPS, URLs, métodos, status, headers, cookies, sessões, autenticação, autorização, XSS, SQLi, SSRF, CSRF, IDOR/BOLA e lógica.
 
 ## Metodologia
-Mapear superfície → entender fluxo → testar hipóteses em laboratório → confirmar impacto → registrar causa raiz → pensar na correção.
+Mapear superfície → compreender fluxo → testar hipótese em laboratório → confirmar impacto → explicar causa raiz → pensar na correção.
 
-## Segurança
-Nunca testar aplicações reais sem autorização. Preferir labs locais, CTFs e plataformas de treinamento.
+## Navegação
+Rooms concluídas: [`tryhackme/COMPLETED-ROOMS.md`](../tryhackme/COMPLETED-ROOMS.md).
 
 ## Referências
-- https://owasp.org/www-project-top-ten/
-- https://developer.mozilla.org/en-US/docs/Web/HTTP
-- https://portswigger.net/web-security
+[OWASP](https://owasp.org/www-project-top-ten/) · [MDN HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) · [PortSwigger Academy](https://portswigger.net/web-security)
 
-## Status
-**Estudado / em andamento.**
+**Status:** 🟡 estudado / em andamento

@@ -1,25 +1,14 @@
 # 🌿 Git Security
 
-## Objetivo
-Entender Git e GitHub como fonte de evidências e também como superfície de risco.
+Git como fonte de histórico e também como superfície de risco.
 
 ## Tópicos
-- commits, branches e histórico
-- diferenças entre working tree, index e repository
-- secrets acidentais
-- `.git` exposto
-- remoção de credenciais do histórico
-- dependabot, secret scanning e proteção de branches
+Commits, branches, `.git`, segredos acidentais, rotação de credenciais e proteção de repositórios.
 
-## Investigação
-```bash
-git log --oneline --all
-git show <commit>
-git diff <old>..<new>
-git rev-list --all
-```
+## Comandos
+`git log --oneline --all`, `git show <commit>`, `git diff`, `git rev-list --all`.
 
-Ao encontrar um segredo exposto, a prioridade é revogar/rotacionar a credencial; apagar o arquivo sozinho não invalida o segredo.
+## Regra
+Ao encontrar segredo exposto, revogar/rotacionar a credencial primeiro; apagar o arquivo não invalida seu vazamento histórico.
 
-## Status
-**Em andamento.**
+**Status:** 🟡 estudado / em andamento

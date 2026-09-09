@@ -1,23 +1,14 @@
 # 🔵 Blue Team
 
-## Objetivo
-Aprender a detectar, investigar e responder a ameaças, conectando telemetria, contexto e processos de resposta.
+Detectar, investigar e responder a ameaças.
 
 ## Ciclo
-**Preparar → detectar → triar → investigar → conter → erradicar → recuperar → aprender.**
+Preparar → detectar → triar → investigar → conter → erradicar → recuperar → aprender.
 
 ## Tópicos
-- SOC e funções L1/L2/L3
-- logs e telemetria
-- SIEM/EDR/IDS/IPS
-- triagem de alertas
-- incident response
-- threat intelligence
-- MITRE ATT&CK
-- false positive vs true positive
+SOC, SIEM, EDR, IDS/IPS, alertas, incident response, threat intelligence e MITRE ATT&CK.
 
-## Evidências
-Uma investigação deve registrar hipótese, fonte, timestamp, indicador, impacto e decisão tomada.
+## Referências
+[NIST CSF](https://www.nist.gov/cyberframework) · [MITRE ATT&CK](https://attack.mitre.org/) · [CISA](https://www.cisa.gov/)
 
-## Status
-**Estudado / em andamento.** Blue Team e fundamentos de SOC já fazem parte do plano atual.
+**Status:** 🟡 estudado / em andamento
